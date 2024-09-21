@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position</title>
+    <!-- POSTION: Static, absolute,relative fixed sticky -->
+    <style>
+        .container{
+            border: 10px solid black;
+            height: 3444px;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+            margin: 2px;
+            display: inline-block;      /* //All block set in same line */
+        }
+        #C{
+            /* position: relative;         Relative to its normal position */
+            /* position: absolute; */
+            /* position: fixed;        The box become fixed when scrolled */
+            position: sticky;           /*It sticks that block to spcified postion when scrolled*/
+            top: 3px;
+            /* right: 4px;
+            bottom: 20px; */
+            /* top: 34px;
+            left: 34px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="A">HOME</div>
+        <div class="box" id="B">MAYANK</div>
+        <div class="box" id="C">TANYA</div>
+        <div class="box" id="D">TRIPTI</div>
+    </div>
+</body>
+</html>

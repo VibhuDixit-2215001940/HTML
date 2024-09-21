@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+        }
+        section{
+            height: 500px;
+            display: flex;
+            border: 12px solid red;
+            /* flex-direction: column; */
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div style="background-color: aqua;">1</div>
+        <div style="background-color: rgb(67, 208, 124);">2</div>
+        <div style="background-color: rgb(181, 89, 19);">3</div>
+        <div style="background-color: rgb(131, 152, 140);">4</div>
+        <div style="background-color: rgb(214, 231, 154);">4</div>
+        <div style="background-color: rgb(228, 174, 218);">4</div>
+        <div style="background-color: rgb(117, 225, 228);">4</div>
+        <div style="background-color: rgb(242, 216, 129);">4</div>
+    </section>
+</body>
+</html>

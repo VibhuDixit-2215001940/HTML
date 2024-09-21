@@ -1,0 +1,19 @@
+#static{
+
+}
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+section{
+    border: 1px solid gray;
+}
+#middle{
+    /* position: static; Offsets doesn't work on static */
+    position: relative;
+    top: 100px;
+    right: 10px;
+}

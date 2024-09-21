@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu Making</title>
+    <style>
+        .navbar{
+            background-color: greenyellow;
+            border-radius: 30px;
+        }
+        .navbar li{
+            float: left;        /*To move the elements to left side one by one*/
+            list-style: none;       /*It will remove the bullets */
+            margin: 13px 20px;
+        }
+        .navbar ul{
+            overflow: auto;     /*It will allow the green color to overlap for each elements*/
+        }
+        .search{
+            float: right;
+            color: aqua;
+            padding: 12px 75px;
+        }
+        .navbar input{      /*Changeing the setting of input tag*/
+            border-radius: 12px;
+            border-color: black;
+            border-width: 4px;
+            padding-top: 5px;
+            width: 160px;
+            cursor: pointer;
+        }
+        .navbar ul li a{
+            text-decoration: none;      /*Will remove the underline*/
+            font-size: 30px;
+            color: black;           /*Will change the font color to black*/
+        }
+        .navbar li a:hover{
+            color: rgb(124, 2, 2);
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">    <!--/*Nav tag help the reader to let know that this is a navigation baar*/-->
+            <ul>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Help </a></li>
+                <li><a href="#">Contact Us </a></li>
+                <div class="search">➡️
+                    <input type="text" name="search" id="search" placeholder="Search anything here!">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

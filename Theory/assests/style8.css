@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#A{
+    background-color: rgb(235, 210, 225);
+    font-size: 28px;
+    border: 12px solid gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    padding: 2px;
+    margin: 50px; /*Margin doesn't affect the element*/
+    visibility: hidden;/*It only hidd the element but takes the space........element space rah jaati*/
+    display: none;/*It doesn't take the space of that element...........element ki space nahi rah paati*/
+}
+#B{
+    background-color: rgb(235, 210, 225);
+    font-size: 28px;
+    border: 12px solid gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    padding: 2px;
+    margin: 50px; /*Margin doesn't affect the element*/
+    /* display: block; */
+}
+#C{
+    background-color: rgb(235, 210, 225);
+    font-size: 28px;
+    border: 12px solid gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 2px;
+    margin: 50px; /*Margin doesn't affect the element*/
+    /* To change the default feature of span i.e. inline to block  */
+    /* display: block; */
+    /* display: flex; */
+}

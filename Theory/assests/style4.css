@@ -1,0 +1,20 @@
+ul li{
+    color: blue;
+    font-size: 25px;
+    border-top: 5px solid rgb(8, 93, 20);
+    /* background-color: aquamarine; */
+}
+h1{
+    color: rgb(112, 111, 40);
+    /* Its max value is 255 */
+}
+h2{
+    color: rgba(255,0,0,1);
+    /* alpha channel is just like brightness or darkness of a no. */
+    /* Its values always les b|w 1 and 0 */
+}
+h3{
+    color: #ff1350;
+    /* It can have only 6 values */
+    /* We can apply alpha channel in also than max value will be 8............. 6 for r g b and 2 for alpha */
+}

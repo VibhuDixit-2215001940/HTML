@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(215, 179, 209);
+    border: 12px solid black;
+    border-radius: 10px;
+    text-align: center;
+    border-top: 12px solid rgb(231, 211, 122);
+    border-bottom: dotted 12px gray;
+}
+#A{
+    color: brown;
+    font-family:"Audiowide";
+}
+.B{
+    color: blue;
+    font-family: "Sofia";
+}
+#C{
+    font-family: "Tilt Prism";
+}

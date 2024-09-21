@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+h1::after{/*It will write that content after that h1 tag*/
+    content: "lets study!!";
+}
+h1::before{     /*It will write that content before that h1 tag*/
+    content: "Ya phir rahin do";
+}
+p::first-line{
+    text-transform: uppercase; /*transforms the first line of that para; */
+}
+p::first-letter{
+    color: rgb(190, 29, 94);/*transforms the first letter of that para; */
+    font-size: 80px;
+}
+h1::before{
+    content: '\1f48b';
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="one" class="h-32 w-32" src="https://images.unsplash.com/photo-1503524921528-8f5fa912ea75?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img id="two" class="h-32 w-32" src="https://images.unsplash.com/photo-1565462905102-140e712045aa?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <button>Click Me</button>
+    <script>
+        var btn = document.querySelector("button");
+        var img1 = document.querySelector("#one");
+        var img2 = document.querySelector("#two");
+        btn.addEventListener("click",function(){
+            var src1 = img1.src;
+            var src2 = img2.src;
+            img1.src = src2;
+            img2.src = src1;
+        })
+    </script>
+     <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

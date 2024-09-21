@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Media Queries</title>
+    <style>
+        .box{
+            background-color: red;
+            color: black;
+            font-size: 22px;
+            text-align: center;
+            /* display: none; */
+        }
+        @media (max-width:600px){       /*Mtlb jab hamari screen ki width ghatkar 500px ho jaye tab idA waale ko gayab ho*/
+            #A{
+                display: none;
+            }
+        }
+        @media (max-width:800px){       /*Mtlb jab hamari screen ki width ghatkar 500px ho jaye tab idA waale ko gayab ho*/
+            #B{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="A">1. Mai ek tablet hoon</div>
+    <div class="box" id="B">2. Mai ek computer hoon</div>
+    <div class="box" id="C">3. Mai ek white screen hoo</div>
+</body>
+</html>

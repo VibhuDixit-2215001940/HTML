@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+}
+ul>li{
+    font-size: 2em;
+    font-size: 200%;
+    /* SNOWBALL EFFECT */
+    /* Here every coming list items is increasing their size twice of its parent */
+    /* It always applicable to em and % only */
+}
+/* section{
+    width: 500px;
+    background-color: blueviolet;
+}
+div{
+    width: 50%;
+    background-color: rgb(190, 146, 88);
+} */
+/* rem is depends on viewport  */
+/* bh and vw is depends on viewport also */
+section{
+    height: 50vh;
+    width: 50vw;
+}

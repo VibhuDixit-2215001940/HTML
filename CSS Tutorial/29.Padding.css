@@ -1,0 +1,13 @@
+#a{
+    background-color: aqua;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width:fit-content;
+}
+#id{
+    padding: 10px;/* for all sides*/
+    padding: 10px 5px;/* top & bottom || left & right*/
+    padding: 10px 12px 14px;/* top || left & right || bottom*/
+    padding: 1px 2px 3px 4px;/* top right bottom left*/
+}

@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(205, 181, 206, 0.759);
+}
+h1{
+    color: blue;
+}
+h1:hover{
+    color: brown;
+    text-shadow: 2px 2px #ff0000;
+    font-family: "Tilt Prism";
+}
+h2:hover{
+    color: chartreuse;
+    font-family: "Kablammo";
+}
+input:focus{
+    background-color: rosybrown;
+}
+a{
+    color: rgb(21, 148, 63);
+}
+  
+  /* visited link */
+a:visited {
+    color: rgb(1, 10, 1);
+}
+  
+  /* mouse over link */
+a:hover {
+    color: hotpink;
+}
+  
+  /* selected link */
+a:active {
+    color: blue;
+}

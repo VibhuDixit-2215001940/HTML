@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Z-Index</title>
+    <style>
+        .box{
+            width: 170px;
+            height: 170px;
+            border: 2px solid red;
+        }
+        #a{background-color: green;
+            position: relative;
+            top: 49px;
+            z-index: 35;
+    }
+        #b{background-color: pink;
+            position: relative;
+            top: 14px;
+            z-index: 34;
+        }
+    </style>
+</head>
+<body>
+    <!-- It will work only when position is relative!! -->
+    <div class="box" id="a"></div>
+    <div class="box" id="b"></div>
+</body>
+</html>

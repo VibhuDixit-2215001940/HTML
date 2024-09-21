@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alignment</title>
+    <style>
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 100px auto; /*  100px is for top to bottom movement of box*/
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: lightpink;
+        }
+        #A{
+            float: left;
+            width: 50%;
+        }
+        #B{
+            float: left;
+            width: 50%;
+        }
+        #C{
+            float: left;
+            width: 100%;
+            clear: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="A">
+            <h3>Fruits</h3>
+            <p id="a" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa non officia praesentium ad, fuga molestiae provident delectus maxime excepturi magnam neque debitis iste? Reiciendis, sit! Deleniti obcaecati laudantium officiis. Exercitationem!Lorem
+            </p>
+        </div>
+        <div id="B">
+            <h3>Vegetables</h3>
+            <p id="b" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa non officia praesentium ad, fuga molestiae provident delectus maxime excepturi magnam neque debitis iste? Reiciendis, sit! Deleniti obcaecati laudantium officiis. Exercitationem!</p>
+        </div>
+        <div id="C">
+            <h3>Pulses</h3>
+            <p id="c" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa non officia praesentium ad, fuga molestiae provident delectus maxime excepturi magnam neque debitis iste? Reiciendis, sit! Deleniti obcaecati laudantium officiis. Exercitationem!</p>
+        </div>
+    </div>
+</body>
+</html>

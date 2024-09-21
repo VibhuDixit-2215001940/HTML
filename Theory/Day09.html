@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        display: inline-block;
+        }
+        section{
+            border: 5px solid rgb(6, 5, 5);
+        }
+        #relative #middle{
+            position: absolute;
+            /* top: 100px; */
+            /* left: 100px; */
+        }
+        #absolute{
+            /* position:absolute; */
+        
+        }
+        #fixed{
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <section id="static">
+        <div style="background-color: rgb(171, 121, 181);">div - 1</div>
+        <div style="background-color: aquamarine;">div - 2</div>
+        <div style="background-color: rgb(229, 244, 173);">div - 3</div>
+    </section>
+    <section id="relative">
+        <div style="background-color: rgb(171, 121, 181);">div - 1</div>
+        <div  id="middle" style="background-color: aquamarine;" >div - 2</div>
+        <div style="background-color: rgb(229, 244, 173);">div - 3</div>
+    </section>
+    <section id="absolute">
+        <div style="background-color: rgb(171, 121, 181);">div - 1</div>
+        <div style="background-color: aquamarine;" >div - 2</div>
+        <div id="fixed" style="background-color: rgb(229, 244, 173);">div - 3</div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Box</title>
+    <!-- It help in aligning box in row or column
+        It is a better wy for aligning the rows or col. -->
+    <style>
+        .container{
+            height: 344px;
+            width: 100%;
+            border: 22px solid black;
+            display: flex;      /*Ye elements ko rows se column mai change kar deta hai*/
+            flex-wrap: wrap;        /*Jese jesse screen ko kam karte jayenge wese wese block shift hote jayenge*/
+        }
+        .item{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 10px;
+            padding: 3px;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is our FlexBox Tutorial.</h2>
+    <div class="container">
+        <div class="item" id="A">First Box</div>
+        <div class="item" id="B">Second Box</div>
+        <div class="item" id="C">Third Box</div>
+        <div class="item" id="D">Fourth Box</div>
+</div>
+</body>
+</html>

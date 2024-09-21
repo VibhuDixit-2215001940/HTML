@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS_SELECTORS</title>
+    <style>
+        e{
+            color:rgb(155, 116, 68); background-color: rgb(92, 147, 147);
+        }
+        #A{
+            color:rgb(201, 186, 215); background-color: rgb(74, 53, 53);
+        }
+        .A{
+            color:rgb(65, 33, 96);
+        }
+        .B{
+            background-color: rgb(220, 198, 198);
+        }
+    </style>
+</head>
+<body>
+    <!-- Selectors are used to find the element whose property will be set -->
+    <!-- It is used to target the HTML element -->
+    <!-- TYPES: 4
+        1.CSS element selector
+        2.CSS id selector
+        3.CSS class selector
+        4.The CSS grouping selector -->
+        <h1>CSS SELECTORS</h1>
+        <hr/>
+        <h3>CSS ELEMENT SELECTOR</h3>
+        <p><e>This is a paragraph , styled using style tag in title box</e></p>
+        <!-- We can apply CSS at target element using element CSS SELECTOR -->
+        <p>This is a paragraph , styled using <e>style tag</e>  in title box and using element css selector.</p>
+        <h3>CSS ID SELECTOR</h3>
+        <!-- For id we define our style tag using "#" -->
+        <P id="A">This is another paragraph demonstrating css id selector.</P>
+        <h3>CSS CLASS SELECTOR</h3>
+        <p class="A">This is another paragraph demonstrating css class selector</p>
+        <p class="A B">This is another paragraph demonstrating css class selector</p>
+
+    </body>
+</html>

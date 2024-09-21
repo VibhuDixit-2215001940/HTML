@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links & Buttons</title>
+    <style>
+        .container{
+            border: 2px solid rgb(150, 16, 16);
+            background-color: yellow;
+            padding: 25px;
+            margin: auto;
+            text-align: center;
+            width: 666px;
+        }
+        .btn{
+            background-color: rgb(161, 106, 106);       /*The color of that icon will change*/
+            padding: 6px;       /*The internal spacing will increase*/
+            border: none;       /*The border of both the box will remove*/
+            cursor:pointer;         /*When curson points to that note it will change into pointer*/
+            font-size: 10px;
+            border-radius: 6px;
+            text-decoration: none;      /*It will remove underline from the link & button if have*/
+        }
+        a:hover{        /*Means jab mai apna cursor uspar leke jau toh ye changes kar de ok*/
+            color: yellow;
+            background-color: aqua;
+        }
+        a:visited{      /*Means jab link visit kar loo tab usme ye sab changes kar de */
+            color: red;
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        T<h2>This is my heading.</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae molestiae ducimus laudantium, dolore eum alias, doloremque aliquid quos, totam tenetur reprehenderit minus rerum nisi sequi omnis eligendi nihil tempora! Sint</p>
+        <a href="https://mail.google.com/mail/u/0/#inbox" class="btn">Read More</a> <!-- /*It just a link*/-->
+        <button class="btn">Contact Us More</button><!--It a button-->
+    </div>
+</body>
+</html>

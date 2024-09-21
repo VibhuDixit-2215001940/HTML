@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>More On Selectors</title>
+    <style>
+        h1{
+            background-color: red;
+            color: black;
+            border: 2px solid green;
+            text-align: center;
+        }
+        div p{          /*This is applicable to both direct and indirect child of div tag*/
+            color: rgb(90, 11, 100);
+            font-weight: bold;
+        }
+        div > p{        /*This is applicable for direct child only*/
+            color: aqua;
+            font-size: 30px;
+        }
+        div + p{    /*Here div is sibling of p tag*/ 
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>My name is Vibhu Dixit</h1>
+    <div class="container">
+        <div id="A">
+            <div>
+                <ul>
+                    <li>
+                        <p>This is indirect child of div tag.</p>
+                    </li>
+                </ul>
+                <p>This is a para graph in many div tags</p>
+            </div>
+        </div>
+    </div>
+    <p>This is a paragraph having sibling div.</p>
+</body>
+</html>
